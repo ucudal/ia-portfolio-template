@@ -28,13 +28,6 @@ Resumen de lo realizado, decisiones y resultados intermedios.
 ## Referencias
 - Fuentes consultadas con enlaces relativos cuando corresponda
 
----
-Checklist rápido
-- [ ] Frontmatter con `title` y `date`
-- [ ] Objetivos claros y medibles
-- [ ] Actividades con tiempo estimado
-- [ ] Enlaces relativos funcionando
-- [ ] Formato Markdown válido (≤120 caracteres por línea)
 
 ---
 

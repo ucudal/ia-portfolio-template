@@ -2,6 +2,9 @@ site_name: "Portfolio — Inteligencia Artificial"
 theme:
   name: material
   language: es
+  features:
+    - navigation.sections
+    - navigation.indexes
 plugins:
   - search
   - awesome-pages
