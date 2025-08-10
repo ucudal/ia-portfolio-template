@@ -1,4 +1,4 @@
-# Portfolio — Inteligencia Artificial — Template para GitHub Classroom
+# Portfolio Template
 
 Este repositorio es un **template** para documentar el **portafolio** del curso usando **MkDocs + Material** con despliegue automático a GitHub Pages.
 

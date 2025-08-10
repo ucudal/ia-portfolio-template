@@ -5,7 +5,7 @@ date: 2025-01-01
 
 # Portafolio — Inicio
 
-Bienvenido al portafolio del curso de Inteligencia Artificial. Aquí documentarás tu progreso,
+Bienvenido al portafolio del curso. Aquí documentarás tu progreso,
 evidencias y reflexiones a lo largo del semestre.
 
 - Revisa la sección "Acerca de mí" para presentarte.

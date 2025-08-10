@@ -1,9 +1,9 @@
 ---
-title: "Entrada 01 — Mi primera experiencia en IA"
+title: "Entrada 01 — Mi primera experiencia"
 date: 2025-01-01
 ---
 
-# Entrada 01 — Mi primera experiencia en IA
+# Entrada 01 — Mi primera experiencia
 
 ## Contexto
 Actividad inicial del curso.
