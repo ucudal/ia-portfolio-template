@@ -1,12 +1,19 @@
 name: Deploy MkDocs to GitHub Pages
+
 on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,9 +24,13 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
-      - uses: actions/upload-pages-artifact@v3
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: site   # carpeta generada por mkdocs build
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -27,5 +38,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
